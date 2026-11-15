@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "databricks-sql",
+        "address": {
+          "host": "<YOUR_DATABRICKS_WORKSPACE_HOST>",
+          "path": "<YOUR_SQL_WAREHOUSE_HTTP_PATH>"
+        },
+        "authentication": null,
+        "query": null
+      },
+      "options": {
+        "Catalog": "<YOUR_CATALOG>",
+        "Database": "<YOUR_SCHEMA>"
+      },
+      "mode": "DirectQuery"
+    }
+  ]
+}
